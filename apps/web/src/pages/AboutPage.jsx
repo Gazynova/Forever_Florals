@@ -18,6 +18,8 @@ function AboutPage() {
         {/* Hero Section */}
         <section className="mt-10 py-20 px-4 sm:px-6 lg:px-8 bg-surface relative overflow-hidden">
           <LeafAccent size="lg" position="top-right" opacity={0.05} />
+          <LeafAccent size="md" position="bottom-left" opacity={0.06} rotate={-20} />
+          <LeafAccent size="sm" position="center" opacity={0.04} rotate={15} />
           <div className="container mx-auto max-w-7xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <motion.div
@@ -61,7 +63,9 @@ function AboutPage() {
 
         {/* Our Story Section */}
         <section className="py-28 px-4 sm:px-6 lg:px-8 bg-surface-container-low">
+          <LeafAccent size="lg" position="left" opacity={0.05} rotate={-10} />
           <div className="max-w-7xl mx-auto">
+            <LeafAccent size="md" position="bottom-right" opacity={0.06} rotate={25} />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
               {/* Image Layout */}
               <motion.div
