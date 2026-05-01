@@ -443,7 +443,7 @@ function ProductDetailView({ productId, onBack }) {
                   {product.name}
                 </h1>
                 <p className="text-3xl font-serif text-primary mb-4">
-                  ${product.price}
+                  ₹{product.price}
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   {product.description}
@@ -587,7 +587,7 @@ function ProductDetailView({ productId, onBack }) {
                   {related.name}
                 </h3>
                 <p className="text-lg font-serif text-primary">
-                  ${related.price}
+                  ₹{related.price}
                 </p>
               </motion.div>
             ))}
